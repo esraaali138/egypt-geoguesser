@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold ">guess when</h1>
+      <h1 className="text-3xl font-bold text-red-500">guess when</h1>
     </>
   );
 }
