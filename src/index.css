@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@theme {
+  --color-background: #fef9ee;
+  --color-surface: #f8f3e8;
+  --color-primary: #0b4aae;
+  --color-primary-dark: #003c8f;
+  --color-accent: #a0410a;
+  --color-accent-light: #fc8448;
+  --color-gold: #d89c3c;
+  --color-ink: #2d2a26;
+
+  --font-sans: "Cairo", system-ui, sans-serif;
+}
+
+body {
+  @apply bg-background text-ink;
+}
